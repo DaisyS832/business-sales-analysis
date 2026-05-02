@@ -25,7 +25,7 @@ The dataset used in this project is a publicly available e-commerce transaction 
 
 ## Dashboard Overview
 
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](business-sales-analysis/images/dashboard_overview.png)
 
 This dashboard provides a high-level summary of overall business performance. The total revenue metric highlights aggregate performance, while the monthly trend visual shows how revenue evolves over time. The distribution and product visuals allow for deeper breakdowns across geography and product categories.
 
@@ -33,7 +33,7 @@ The dashboard is designed to give decision-makers a quick understanding of perfo
 
 ## Revenue Distribution by Country
 
-![Country Analysis](images/country_analysis.png)
+![Country Analysis](business-sales-analysis/images/country_analysis.png)
 
 This visualization shows that revenue is heavily concentrated in the United Kingdom, which accounts for the majority of total sales. Other countries contribute significantly smaller portions, indicating an uneven geographic distribution.
 
@@ -41,7 +41,7 @@ This suggests that the business is highly dependent on a single market, which ma
 
 ## Top Products by Revenue
 
-![Product Analysis](images/product_analysis.png)
+![Product Analysis](business-sales-analysis/images/product_analysis.png)
 
 This chart highlights the top-performing products based on total revenue. A small number of products generate a large share of overall sales, indicating a concentration of demand.
 

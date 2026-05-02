@@ -23,6 +23,13 @@ Each visual was selected to directly support one of these analytical goals.
 ## Data Source
 The dataset used in this project is a publicly available e-commerce transaction dataset sourced from Kaggle. It contains historical sales records including product-level transaction details, customer identifiers, and geographic information.
 
+## Tools and Technologies
+
+- Power BI (data visualization and dashboard development)
+- SQL (data querying and analysis)
+- Excel / CSV (data preprocessing)
+- GitHub (version control and project presentation)
+
 ## Dashboard Overview
 
 ![Dashboard Overview](business-sales-analysis/images/dashboard_overview.png)
@@ -108,11 +115,14 @@ business-sales-analysis/
 └── README.md
 ```
 
-## Usage
+## How to View the Dashboard
 
-1. Download the `.pbix` file from the `dashboard` folder.
-2. Open the file using Power BI Desktop.
-3. Interact with the visuals to explore trends, product performance, and geographic distribution.
+The Power BI dashboard file is included in the repository. To view it:
+
+1. Download the `.pbix` file from the `dashboard` folder
+2. Open it using Power BI Desktop
+
+Dashboard screenshots are also included in the images folder for quick reference.
 
 ## Author
 

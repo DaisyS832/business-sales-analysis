@@ -38,6 +38,12 @@ The dataset used in this project is a publicly available e-commerce transaction 
 * **Product Contribution**
   Revenue is not evenly distributed across products. A small number of high-performing products generate a significant portion of total revenue, with the leading product exceeding 1 million in revenue.
 
+## Business Implications
+- The heavy reliance on a single country suggests a need for geographic diversification to reduce business risk and improve long-term stability.
+- Focusing on top-performing products can improve profitability, while also identifying similar or complementary products may expand revenue streams.
+- Seasonal trends should be incorporated into business planning, particularly for inventory management, marketing campaigns, and staffing during peak periods.
+- Expanding market presence in mid-tier countries could improve overall revenue distribution and reduce dependency on the primary market.
+
 ## Visualizations
 
 * **Total Revenue (KPI Card)**
@@ -81,7 +87,6 @@ business-sales-analysis/
 │
 └── README.md
 ```
-
 
 ## Usage
 

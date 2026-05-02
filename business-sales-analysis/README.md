@@ -23,9 +23,29 @@ Each visual was selected to directly support one of these analytical goals.
 ## Data Source
 The dataset used in this project is a publicly available e-commerce transaction dataset sourced from Kaggle. It contains historical sales records including product-level transaction details, customer identifiers, and geographic information.
 
-## Dashboard Preview
+## Dashboard Overview
 
 ![Dashboard Overview](images/dashboard_overview.png)
+
+This dashboard provides a high-level summary of overall business performance. The total revenue metric highlights aggregate performance, while the monthly trend visual shows how revenue evolves over time. The distribution and product visuals allow for deeper breakdowns across geography and product categories.
+
+The dashboard is designed to give decision-makers a quick understanding of performance and areas requiring further analysis.
+
+## Revenue Distribution by Country
+
+![Country Analysis](images/country_analysis.png)
+
+This visualization shows that revenue is heavily concentrated in the United Kingdom, which accounts for the majority of total sales. Other countries contribute significantly smaller portions, indicating an uneven geographic distribution.
+
+This suggests that the business is highly dependent on a single market, which may introduce risk. Expanding into other regions could improve revenue diversification and long-term stability.
+
+## Top Products by Revenue
+
+![Product Analysis](images/product_analysis.png)
+
+This chart highlights the top-performing products based on total revenue. A small number of products generate a large share of overall sales, indicating a concentration of demand.
+
+This pattern suggests that focusing on high-performing products, while identifying similar opportunities, could further increase revenue. It also highlights the importance of inventory and marketing alignment with top-selling items.
 
 ## Key Insights
 

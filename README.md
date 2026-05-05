@@ -32,6 +32,14 @@ Each visualization was intentionally selected to align with a specific analytica
 
 The dataset used in this project is a publicly available e-commerce transaction dataset sourced from Kaggle. It contains historical sales records including product-level transaction details, customer identifiers, and geographic information.
 
+## Data Preview
+
+![Data Preview](business-sales-analysis/images/data_preview.png)
+
+This preview displays a sample of the cleaned transactional dataset used in the analysis. The dataset has been structured to include only relevant variables such as transaction details, pricing, quantity, customer identifiers, geographic information, and calculated revenue.
+
+The cleaned structure ensures consistency, improves analytical efficiency, and supports accurate aggregation within the dashboard.
+
 ## Tools and Technologies
 
 - Power BI (data visualization and dashboard development)  
@@ -80,6 +88,9 @@ Additionally, this insight can inform inventory management, pricing strategies, 
 - **Product Contribution**  
   Revenue is not evenly distributed across products. A small number of high-performing products generate a significant portion of total revenue.
 
+- **Data Quality Improvement**  
+  Data preprocessing and cleaning significantly improved consistency and reliability, ensuring that insights are based on accurate and structured information.
+
 ## Business Implications
 
 - Heavy reliance on a single geographic market introduces risk and highlights the need for expansion into secondary regions.  
@@ -113,6 +124,7 @@ business-sales-analysis/
 │   └── processed/
 │       ├── cleaned_data.xlsx
 │       ├── cleaned_data.csv
+│       ├── cleaned_data_sample.xlsx
 │       └── cleaned_data_sample.csv
 │
 ├── sql/
@@ -123,6 +135,7 @@ business-sales-analysis/
 │
 ├── images/
 │   ├── dashboard_overview.png
+│   ├── data_preview.png
 │   ├── product_analysis.png
 │   └── country_analysis.png
 │
@@ -136,9 +149,14 @@ business-sales-analysis/
 
 The dataset used in this project includes detailed transactional records and may be large in size, which can limit direct preview functionality within GitHub.
 
-To improve accessibility, a smaller sample dataset (`cleaned_data_sample.csv`) has been included in the `data/processed/` directory. This file contains a representative subset of the full dataset and allows users to quickly examine the data structure and key variables without downloading large files.
+To improve accessibility, smaller sample dataset files are included:
 
-For complete analysis and full dataset exploration, users are encouraged to download the full dataset files locally.
+- cleaned_data_sample.csv  
+- cleaned_data_sample.xlsx  
+
+These files provide a representative subset of the cleaned dataset and allow quick preview of the data structure directly within GitHub.
+
+The full dataset remains available for complete analysis, while the sample files improve usability for quick review and evaluation.
 
 ## How to View the Dashboard
 

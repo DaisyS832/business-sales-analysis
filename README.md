@@ -12,8 +12,6 @@ The objective of this analysis is to move beyond surface-level reporting and pro
 
 The dashboard is designed to support both high-level strategic evaluation and deeper exploratory analysis, enabling stakeholders to quickly identify performance patterns and areas for optimization.
 
----
-
 ## Analytical Approach
 
 The dataset consists of granular transaction-level records, which were transformed and aggregated to support meaningful analysis across multiple dimensions.
@@ -30,13 +28,9 @@ Aggregations were applied to transform raw transactional data into meaningful me
 
 Each visualization was intentionally selected to align with a specific analytical objective, ensuring clarity, interpretability, and analytical value.
 
----
-
 ## Data Source
 
 The dataset used in this project is a publicly available e-commerce transaction dataset sourced from Kaggle. It contains historical sales records including product-level transaction details, customer identifiers, and geographic information.
-
----
 
 ## Tools and Technologies
 
@@ -44,8 +38,6 @@ The dataset used in this project is a publicly available e-commerce transaction 
 - SQL (data querying and analysis)  
 - Excel / CSV (data preprocessing)  
 - GitHub (version control and project presentation)  
-
----
 
 ## Dashboard Overview
 
@@ -57,8 +49,6 @@ The total revenue metric offers a quick assessment of overall performance, while
 
 Supporting visuals enable users to analyze performance across product categories and geographic regions. The dashboard is designed as an interactive analytical tool, allowing users to explore relationships between key variables and uncover deeper insights.
 
----
-
 ## Revenue Distribution by Country
 
 ![Country Analysis](business-sales-analysis/images/country_analysis.png)
@@ -69,8 +59,6 @@ Such concentration introduces significant business risk, as performance is heavi
 
 The limited contribution from other countries suggests untapped market potential, highlighting an opportunity for geographic expansion to improve revenue diversification and long-term stability.
 
----
-
 ## Top Products by Revenue
 
 ![Product Analysis](business-sales-analysis/images/product_analysis.png)
@@ -80,8 +68,6 @@ This chart highlights the top-performing products based on total revenue, reveal
 This pattern indicates that a limited number of products are driving a large portion of overall revenue, emphasizing the importance of identifying, promoting, and maintaining these high-performing products.
 
 Additionally, this insight can inform inventory management, pricing strategies, and targeted marketing efforts to maximize revenue generation.
-
----
 
 ## Key Insights
 
@@ -94,16 +80,12 @@ Additionally, this insight can inform inventory management, pricing strategies, 
 - **Product Contribution**  
   Revenue is not evenly distributed across products. A small number of high-performing products generate a significant portion of total revenue.
 
----
-
 ## Business Implications
 
 - Heavy reliance on a single geographic market introduces risk and highlights the need for expansion into secondary regions.  
 - Focusing on top-performing products can improve profitability and guide strategic inventory decisions.  
 - Seasonal demand patterns should inform marketing strategies, staffing decisions, and inventory planning.  
 - Expanding presence in underrepresented markets can improve revenue distribution and reduce dependency on a single region.  
-
----
 
 ## Visualizations
 
@@ -118,8 +100,6 @@ Additionally, this insight can inform inventory management, pricing strategies, 
 
 - **Top Products by Revenue**  
   Identifies the highest-performing products driving business results  
-
----
 
 ## Project Structure
 

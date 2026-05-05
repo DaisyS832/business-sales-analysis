@@ -2,88 +2,124 @@
 
 ## Overview
 
-This project analyzes transactional e-commerce sales data using Power BI to evaluate revenue performance, product contribution, and geographic distribution. The dashboard is designed to provide a clear, high-level view of business activity while supporting deeper exploration of key revenue drivers.
+This project presents a comprehensive analysis of transactional e-commerce sales data to evaluate overall business performance, identify key revenue drivers, and assess geographic and product-level contributions.
 
-The analysis focuses on identifying patterns in customer purchasing behavior, understanding which products generate the most revenue, and examining how sales are distributed across different regions.
+The objective of this analysis is to move beyond surface-level reporting and provide actionable insights that support data-driven decision-making. Specifically, the project addresses the following key business questions:
+
+- Which products contribute most significantly to total revenue?
+- How does revenue evolve over time, and are there identifiable seasonal trends?
+- How is revenue distributed geographically, and where are potential growth opportunities?
+
+The dashboard is designed to support both high-level strategic evaluation and deeper exploratory analysis, enabling stakeholders to quickly identify performance patterns and areas for optimization.
+
+---
 
 ## Analytical Approach
 
-The dataset consists of individual transaction records, which were aggregated to support meaningful analysis across time, product categories, and geographic locations.
+The dataset consists of granular transaction-level records, which were transformed and aggregated to support meaningful analysis across multiple dimensions.
 
-Data preparation was performed using Power Query, where inconsistencies were addressed and data types were standardized to ensure accurate calculations.
+Data preparation was conducted using Power Query, where missing values, inconsistencies, and formatting issues were addressed. Data types were standardized to ensure accurate aggregation and calculation within Power BI.
 
-The dashboard was structured around three core analytical dimensions:
+The analysis was structured around three primary dimensions:
 
-* Time-based revenue trends
-* Product-level performance
-* Geographic revenue distribution
+- **Temporal Analysis**: Evaluating revenue trends over time to identify growth patterns and seasonal fluctuations  
+- **Product-Level Analysis**: Identifying high-performing products and understanding revenue concentration  
+- **Geographic Analysis**: Examining revenue distribution across countries to assess market dependence and expansion opportunities  
 
-Each visual was selected to directly support one of these analytical goals.
+Aggregations were applied to transform raw transactional data into meaningful metrics, such as total revenue, monthly revenue trends, and percentage contribution by country.
+
+Each visualization was intentionally selected to align with a specific analytical objective, ensuring clarity, interpretability, and analytical value.
+
+---
 
 ## Data Source
+
 The dataset used in this project is a publicly available e-commerce transaction dataset sourced from Kaggle. It contains historical sales records including product-level transaction details, customer identifiers, and geographic information.
+
+---
 
 ## Tools and Technologies
 
-- Power BI (data visualization and dashboard development)
-- SQL (data querying and analysis)
-- Excel / CSV (data preprocessing)
-- GitHub (version control and project presentation)
+- Power BI (data visualization and dashboard development)  
+- SQL (data querying and analysis)  
+- Excel / CSV (data preprocessing)  
+- GitHub (version control and project presentation)  
+
+---
 
 ## Dashboard Overview
 
 ![Dashboard Overview](business-sales-analysis/images/dashboard_overview.png)
 
-This dashboard provides a high-level summary of overall business performance. The total revenue metric highlights aggregate performance, while the monthly trend visual shows how revenue evolves over time. The distribution and product visuals allow for deeper breakdowns across geography and product categories.
+The dashboard provides a consolidated view of business performance through a combination of KPI indicators and analytical visuals.
 
-The dashboard is designed to give decision-makers a quick understanding of performance and areas requiring further analysis.
+The total revenue metric offers a quick assessment of overall performance, while the monthly revenue trend highlights temporal patterns, including growth trajectories and seasonal peaks.
+
+Supporting visuals enable users to analyze performance across product categories and geographic regions. The dashboard is designed as an interactive analytical tool, allowing users to explore relationships between key variables and uncover deeper insights.
+
+---
 
 ## Revenue Distribution by Country
 
 ![Country Analysis](business-sales-analysis/images/country_analysis.png)
 
-This visualization shows that revenue is heavily concentrated in the United Kingdom, which accounts for the majority of total sales. Other countries contribute significantly smaller portions, indicating an uneven geographic distribution.
+This visualization reveals a highly concentrated revenue distribution, with the United Kingdom accounting for the majority of total sales.
 
-This suggests that the business is highly dependent on a single market, which may introduce risk. Expanding into other regions could improve revenue diversification and long-term stability.
+Such concentration introduces significant business risk, as performance is heavily dependent on a single geographic market. Any disruption in this region could have a disproportionate impact on overall revenue.
+
+The limited contribution from other countries suggests untapped market potential, highlighting an opportunity for geographic expansion to improve revenue diversification and long-term stability.
+
+---
 
 ## Top Products by Revenue
 
 ![Product Analysis](business-sales-analysis/images/product_analysis.png)
 
-This chart highlights the top-performing products based on total revenue. A small number of products generate a large share of overall sales, indicating a concentration of demand.
+This chart highlights the top-performing products based on total revenue, revealing a strong concentration of sales among a relatively small subset of items.
 
-This pattern suggests that focusing on high-performing products, while identifying similar opportunities, could further increase revenue. It also highlights the importance of inventory and marketing alignment with top-selling items.
+This pattern indicates that a limited number of products are driving a large portion of overall revenue, emphasizing the importance of identifying, promoting, and maintaining these high-performing products.
+
+Additionally, this insight can inform inventory management, pricing strategies, and targeted marketing efforts to maximize revenue generation.
+
+---
 
 ## Key Insights
 
-* **Geographic Concentration**
+- **Geographic Concentration**  
   The United Kingdom accounts for approximately 85% of total revenue, indicating a heavy reliance on a single market.
 
-* **Seasonal Trend**
-  Revenue increases steadily throughout the year, with a noticeable peak in November. This suggests strong seasonal demand, likely tied to increased consumer activity during the holiday period.
+- **Seasonal Trend**  
+  Revenue increases steadily throughout the year, with a noticeable peak in November, suggesting strong seasonal demand likely associated with holiday shopping behavior.
 
-* **Product Contribution**
-  Revenue is not evenly distributed across products. A small number of high-performing products generate a significant portion of total revenue, with the leading product exceeding 1 million in revenue.
+- **Product Contribution**  
+  Revenue is not evenly distributed across products. A small number of high-performing products generate a significant portion of total revenue.
+
+---
 
 ## Business Implications
-- The heavy reliance on a single country suggests a need for geographic diversification to reduce business risk and improve long-term stability.
-- Focusing on top-performing products can improve profitability, while also identifying similar or complementary products may expand revenue streams.
-- Seasonal trends should be incorporated into business planning, particularly for inventory management, marketing campaigns, and staffing during peak periods.
-- Expanding market presence in mid-tier countries could improve overall revenue distribution and reduce dependency on the primary market.
+
+- Heavy reliance on a single geographic market introduces risk and highlights the need for expansion into secondary regions.  
+- Focusing on top-performing products can improve profitability and guide strategic inventory decisions.  
+- Seasonal demand patterns should inform marketing strategies, staffing decisions, and inventory planning.  
+- Expanding presence in underrepresented markets can improve revenue distribution and reduce dependency on a single region.  
+
+---
 
 ## Visualizations
 
-* **Total Revenue (KPI Card)**
-  Provides an overview of total business performance.
+- **Total Revenue (KPI Card)**  
+  Provides an overview of total business performance  
 
-* **Monthly Revenue Trend**
-  Displays how revenue evolves over time, highlighting trends and seasonality.
+- **Monthly Revenue Trend**  
+  Displays how revenue evolves over time, highlighting trends and seasonality  
 
-* **Revenue Distribution by Country (%)**
-  Shows the proportional contribution of each country to total revenue.
+- **Revenue Distribution by Country (%)**  
+  Shows the proportional contribution of each country to total revenue  
 
-* **Top Products by Revenue**
-  Identifies the highest-performing products driving business results.
+- **Top Products by Revenue**  
+  Identifies the highest-performing products driving business results  
+
+---
 
 ## Project Structure
 
@@ -96,7 +132,8 @@ business-sales-analysis/
 │   │
 │   └── processed/
 │       ├── cleaned_data.xlsx
-│       └── cleaned_data.csv
+│       ├── cleaned_data.csv
+│       └── cleaned_data_sample.csv
 │
 ├── sql/
 │   └── sales_analysis.sql
@@ -119,20 +156,16 @@ business-sales-analysis/
 
 The dataset used in this project includes detailed transactional records and may be large in size, which can limit direct preview functionality within GitHub.
 
-To improve accessibility, a smaller sample dataset has been included in the `data/processed/` directory. This sample file contains a representative subset of the full dataset and allows users to quickly examine the data structure, key variables, and formatting without downloading the complete dataset.
+To improve accessibility, a smaller sample dataset (`cleaned_data_sample.csv`) has been included in the `data/processed/` directory. This file contains a representative subset of the full dataset and allows users to quickly examine the data structure and key variables without downloading large files.
 
-The sample preserves essential attributes such as transaction values, product identifiers, and geographic information, ensuring that the analytical context remains clear and interpretable.
-
-For full analysis and complete data exploration, users are encouraged to download the full dataset files locally.
+For complete analysis and full dataset exploration, users are encouraged to download the full dataset files locally.
 
 ## How to View the Dashboard
 
-The Power BI dashboard file is included in the repository. To view it:
-
-1. Download the `.pbix` file from the `dashboard` folder
-2. Open it using Power BI Desktop
-
-Dashboard screenshots are also included in the images folder for quick reference.
+1. Navigate to the `dashboard` folder in this repository  
+2. Download the `.pbix` file  
+3. Open it using Power BI Desktop  
+4. Interact with the dashboard  
 
 ## Author
 

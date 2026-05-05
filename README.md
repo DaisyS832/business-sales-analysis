@@ -115,6 +115,16 @@ business-sales-analysis/
 └── README.md
 ```
 
+## Data Accessibility
+
+The dataset used in this project includes detailed transactional records and may be large in size, which can limit direct preview functionality within GitHub.
+
+To improve accessibility, a smaller sample dataset has been included in the `data/processed/` directory. This sample file contains a representative subset of the full dataset and allows users to quickly examine the data structure, key variables, and formatting without downloading the complete dataset.
+
+The sample preserves essential attributes such as transaction values, product identifiers, and geographic information, ensuring that the analytical context remains clear and interpretable.
+
+For full analysis and complete data exploration, users are encouraged to download the full dataset files locally.
+
 ## How to View the Dashboard
 
 The Power BI dashboard file is included in the repository. To view it:

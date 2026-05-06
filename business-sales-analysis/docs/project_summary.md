@@ -64,7 +64,7 @@ The analysis is structured across three primary dimensions:
 
 
 
-### Time-Based Analysis
+#### Time-Based Analysis
 
 
 
@@ -72,7 +72,7 @@ Revenue was aggregated at the monthly level to identify patterns and trends. Agg
 
 
 
-\### Product Performance Analysis
+#### Product Performance Analysis
 
 
 
@@ -80,7 +80,7 @@ Products were ranked by total revenue to determine which items contribute most s
 
 
 
-\### Geographic Analysis
+#### Geographic Analysis
 
 
 
@@ -88,7 +88,7 @@ Revenue was grouped by country and expressed as a percentage of total revenue. T
 
 
 
-\## Key Findings
+## Key Findings
 
 
 
@@ -110,7 +110,7 @@ Revenue was grouped by country and expressed as a percentage of total revenue. T
 
 
 
-\## Interpretation
+## Interpretation
 
 
 
@@ -122,7 +122,7 @@ The observed seasonal trend provides an opportunity for strategic planning, part
 
 
 
-\## Conclusion
+## Conclusion
 
 
 

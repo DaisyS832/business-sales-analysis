@@ -1,8 +1,8 @@
-\# Project Summary: E-Commerce Sales Analysis
+## Project Summary: E-Commerce Sales Analysis
 
 
 
-\## Objective
+## Objective
 
 
 
@@ -10,7 +10,7 @@ The objective of this project is to analyze transactional e-commerce data to und
 
 
 
-\## Data Context
+## Data Context
 
 
 
@@ -36,7 +36,7 @@ Key attributes include:
 
 
 
-\## Data Preparation
+## Data Preparation
 
 
 
@@ -56,7 +56,7 @@ These steps ensured that all visualizations reflect accurate and reliable data.
 
 
 
-\## Analytical Framework
+## Analytical Framework
 
 
 
@@ -64,7 +64,7 @@ The analysis is structured across three primary dimensions:
 
 
 
-\### Time-Based Analysis
+### Time-Based Analysis
 
 
 
